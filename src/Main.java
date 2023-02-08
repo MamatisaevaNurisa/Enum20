@@ -7,13 +7,7 @@ public class Main {
         String soz = scan.nextLine();
 
 
-        Regions regions = Regions.OSH;
-        Regions regions1 = Regions.JALAL_ABAD;
-        Regions regions2 = Regions.CHUI;
-        Regions regions3 = Regions.BATKEN;
-        Regions regions4 = Regions.YSSYK_KOL;
-        Regions regions5 = Regions.NARYN;
-        Regions regions6 = Regions.TALAS;
+        Regions regions = Regions.valueOf(soz.toUpperCase());
 
 
         switch (regions) {
